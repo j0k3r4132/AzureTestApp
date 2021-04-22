@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureTestApp", "AzureTestApp\AzureTestApp.csproj", "{617B528F-289A-4025-9F2B-62556F1F5211}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureTestApp", "AzureTestApp\AzureTestApp.csproj", "{617B528F-289A-4025-9F2B-62556F1F5211}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureTestAppTests", "AzureTestAppTests\AzureTestAppTests.csproj", "{F3B131E5-28E6-4A76-9EA0-D7B66CC3F110}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{617B528F-289A-4025-9F2B-62556F1F5211}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{617B528F-289A-4025-9F2B-62556F1F5211}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{617B528F-289A-4025-9F2B-62556F1F5211}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3B131E5-28E6-4A76-9EA0-D7B66CC3F110}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3B131E5-28E6-4A76-9EA0-D7B66CC3F110}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3B131E5-28E6-4A76-9EA0-D7B66CC3F110}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3B131E5-28E6-4A76-9EA0-D7B66CC3F110}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
