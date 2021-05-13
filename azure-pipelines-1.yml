@@ -33,7 +33,8 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
-- task: PublishBuildArtifacts@1    
-  displayName: 'Publish Artifact: drop'
+- task: PublishPipelineArtifact@1
   inputs:
-    PathtoPublish: '$(build.artifactstagingdirectory)'
+    targetPath: '$(Pipeline.Workspace)'
+    artifact: 'AzureTestApp'
+    publishLocation: 'pipeline'
